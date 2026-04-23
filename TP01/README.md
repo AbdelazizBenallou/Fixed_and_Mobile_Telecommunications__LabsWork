@@ -13,17 +13,8 @@ Simulate a WAN (Wide Area Network) interconnecting three local networks and anal
 
 ##  Network Topology
 
-```
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│  LAN01                                               │
-│  Host A ──┐                                          │
-│            ├── R1 ──────── R2 ──── Host C  (LAN03)  │
-│  Host B ──┘                                          │
-│  LAN02                                               │
-│                                                      │
-└──────────────────────────────────────────────────────┘
-```
+![Queue Analysis](Screenshot_2026-04-23_11-11-21.png)
+
 
 | Network | Host | Role |
 |---|---|---|
@@ -53,9 +44,6 @@ Simulate a WAN (Wide Area Network) interconnecting three local networks and anal
 
 ##  Results
 
-### Queue Length over Time
-
-![Queue Analysis](queue_analysis.png)
 
 ### Summary Table
 
